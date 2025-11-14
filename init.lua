@@ -186,7 +186,7 @@ vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' }
 
 -- Change tabs to 4 spaces
 vim.opt.tabstop = 4
-vim.opt.shitwidth = 4
+vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.bo.softtabstop = 4
 
